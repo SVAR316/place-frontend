@@ -1,6 +1,9 @@
+@forward "./fonts";
+
 :root{
   --main-color: #525C3A;
   --accent-color: #B4B897;
+  --bg-color: #E4E1D8;
 }
 
 html {
@@ -12,6 +15,8 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
 
   & button{
     cursor: pointer;
@@ -19,9 +24,13 @@ html {
 }
 
 .container{
-  max-width: 1680px;
+  max-width: 80rem;
   margin: 0 auto;
   width: 100%;
+}
+
+body{
+background-color: var(--bg-color);
 }
 
 @media (max-width: 999px){

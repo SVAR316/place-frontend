@@ -1,10 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import {Routing} from "./pages";
-import React from 'react';
+import './shared/styles/global.scss'
 
 
 createRoot(document.getElementById('root')!).render(
-    <React.StrictMode>
-        <Routing />
-    </React.StrictMode>
+    <Routing />
 )

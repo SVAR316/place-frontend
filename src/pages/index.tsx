@@ -1,7 +1,7 @@
 import {lazy, Suspense} from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-const HomePage = lazy(() => import('./home/HomePage'))
+const LandingPage = lazy(() => import('./home/LandingPage.tsx'))
 
 
 export const Routing: React.FC = () => {
@@ -12,7 +12,7 @@ export const Routing: React.FC = () => {
         <Suspense fallback={<div>Loading...</div>}>
             <Router>
                 <Routes>
-                    <Route path={'/'} element={<HomePage />} />
+                    <Route path={'/'} element={<LandingPage />} />
                 </Routes>
             </Router>
         </Suspense>

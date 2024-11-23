@@ -1,0 +1,29 @@
+.preview{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  padding-left: 4rem;
+  padding-top: 2.857rem;
+  border-radius: 1.429rem;
+  margin-top: 2.381rem;
+  padding-bottom: 5.381rem;
+
+
+  &-left{
+    display: flex;
+    flex-direction: column;
+    &__title{
+      font-size: 3.238rem;
+      width: 30.857rem;
+      color: var(--main-color);
+      font-weight: 700;
+    }
+
+    &__desc{
+      color: var(--main-color);
+      font-size: 1.143rem;
+      width: 27.429rem;
+      margin-top: 2.143rem;
+    }
+  }
+}
