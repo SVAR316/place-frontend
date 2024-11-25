@@ -3,7 +3,6 @@
   width: 100%;
   display: flex;
   padding-left: 4rem;
-  padding-top: 2.857rem;
   border-radius: 1.429rem;
   margin-top: 2.381rem;
   padding-bottom: 5.381rem;
@@ -12,6 +11,7 @@
   &-left{
     display: flex;
     flex-direction: column;
+    padding-top: 2.857rem;
     &__title{
       font-size: 3.238rem;
       width: 30.857rem;
@@ -24,6 +24,15 @@
       font-size: 1.143rem;
       width: 27.429rem;
       margin-top: 2.143rem;
+    }
+  }
+
+  &-right{
+    padding-top: 2.762rem;
+
+    &__image{
+      width: 38.667rem;
+      height: 21.048rem;
     }
   }
 }
