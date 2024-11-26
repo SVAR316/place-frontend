@@ -8,6 +8,18 @@ import handHoldingHeart from '../../shared/images/landing/users-lan-white.svg'
 import calendarPen from '../../shared/images/landing/calendar-pen.svg'
 import moneyBank from '../../shared/images/landing/moneyBank.svg'
 import handshake from '../../shared/images/landing/handshake.svg'
+import girlFirst from '../../shared/images/landing/girl.png'
+import arrowRight from '../../shared/images/landing/arrow-right-long.svg'
+import userLanGreen from '../../shared/images/landing/users-lan-green.svg'
+import folderDownload from '../../shared/images/landing/folder-download-green.svg'
+import handshakeGreen from '../../shared/images/landing/handshake-green.svg'
+import searchGreen from '../../shared/images/landing/search-green.svg'
+import girlSecond from '../../shared/images/landing/girlsecond.png'
+import usdCircle from '../../shared/images/landing/usd-circle-green.svg'
+import userAdd from '../../shared/images/landing/user-add-green.svg'
+import vest from '../../shared/images/landing/vest-green.svg'
+import searchDollar from '../../shared/images/landing/search-dollar-green.svg'
+
 
 function LandingPage() {
 
@@ -126,6 +138,105 @@ function LandingPage() {
                                 Обменивайтесь опытом, находите друзей и вдохновение для новых начинаний!
                             </h4>
                         </div>
+                    </div>
+                </div>
+                <div className={'stats'}>
+                    <div className={'stats-upper'}>
+                        <p>
+                            10 000+
+                        </p>
+                        <p>
+                            1000+
+                        </p>
+                        <p>
+                            100 000+
+                        </p>
+                    </div>
+                    <div className={'stats-down'}>
+                        <p>
+                            Волонтеров
+                        </p>
+                        <div className={'stats-down__first-line'}></div>
+                        <p>
+                            Организаций
+                        </p>
+                        <div className={'stats-down__second-line'}></div>
+                        <p>
+                            Добрых дел
+                        </p>
+                    </div>
+                </div>
+
+                <div className={'info'}>
+                        <div className={'info-upper'}>
+                            <img className={'info-upper__image'} src={girlFirst}  alt={'image girl'}/>
+                            <div className={'info-upper__content'}>
+                                <h3 className={'info-upper__title'}>
+                                    Волонтерам
+                                    <img src={arrowRight} alt={'arrow icon'}/>
+                                </h3>
+                                <div className={'info-upper__block'}>
+                                    <div>
+                                        <img src={userLanGreen} alt={'icon users green'} />
+                                        <p>
+                                            Поддержка социальных инициатив
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src={folderDownload} alt={'folder download green'} />
+                                        <p>
+                                            Сохранение опыта
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src={handshakeGreen} alt={'handshake green'} />
+                                        <p>
+                                            Культурные инициативы
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src={searchGreen} alt={'search green'} />
+                                        <p>
+                                            Поиск
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div className={'info-upper'}>
+                        <div className={'info-upper__content'}>
+                            <h3 className={'info-upper__title'}>
+                                Организаторам
+                                <img src={arrowRight} alt={'arrow icon'}/>
+                            </h3>
+                            <div className={'info-upper__block'}>
+                                <div>
+                                    <img src={vest} alt={'icon vest'}/>
+                                    <p>
+                                        Координация мероприятий
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src={usdCircle} alt={'usd circle green'}/>
+                                    <p>
+                                        Сбор средств на благотворительность
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src={searchDollar} alt={'search dollar icon'}/>
+                                    <p>
+                                        Поиск спонсоров
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src={userAdd} alt={'user add icon'}/>
+                                    <p>
+                                        Запуск кампаний по привлечению волонтеров
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img className={'info-upper__image'} src={girlSecond} alt={'image girl'}/>
                     </div>
                 </div>
             </div>
