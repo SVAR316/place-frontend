@@ -272,3 +272,44 @@
     }
   }
 }
+
+.cases{
+  margin-top: 4.571rem;
+
+  &__title{
+    font-size: 2.286rem;
+    color: var(--main-color);
+    font-weight: 700;
+  }
+
+  &-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1.714rem;
+    gap: 1.238rem;
+  }
+  &-buttons{
+    margin-top: 1.619rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__item{
+      width: 17.19rem;
+      background-color: var(--accent-color);
+      border-radius: 0.952rem;
+      outline: none;
+      transition: all 300ms ease;
+      color: white;
+      font-size: 1.714rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3.095rem;
+      text-decoration: none;
+
+      &:hover{
+        background-color: var(--main-color);
+      }
+    }
+  }
+}

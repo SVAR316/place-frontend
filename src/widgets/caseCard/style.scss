@@ -1,0 +1,41 @@
+.card{
+  background-color: white;
+  padding: .667rem .81rem 1.905rem .81rem;
+  border-radius: 1.429rem;
+  //width: 17.19rem;
+  cursor: pointer;
+
+  & > img{
+    //max-width: 15.619rem;
+    width: 100%;
+  }
+
+  &__name{
+    margin-top: .762rem;
+    font-size: 1.143rem;
+    font-weight: 700;
+    color: var(--main-color);
+  }
+
+  &-list{
+    margin-top: .762rem;
+    display: flex;
+    flex-direction: column;
+    gap: .667rem;
+  }
+
+  &-item{
+    display: flex;
+    align-items: center;
+    gap: .333rem;
+
+    &__icon{
+      width: 1.524rem;
+      height: 1.524rem;
+    }
+    &__text{
+      font-size: .952rem;
+      color: var(--main-color);
+    }
+  }
+}

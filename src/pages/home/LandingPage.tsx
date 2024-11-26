@@ -19,6 +19,8 @@ import usdCircle from '../../shared/images/landing/usd-circle-green.svg'
 import userAdd from '../../shared/images/landing/user-add-green.svg'
 import vest from '../../shared/images/landing/vest-green.svg'
 import searchDollar from '../../shared/images/landing/search-dollar-green.svg'
+import CaseCard from "../../widgets/caseCard/CaseCard.tsx";
+import {Link} from "react-router-dom";
 
 
 function LandingPage() {
@@ -238,6 +240,24 @@ function LandingPage() {
                         </div>
                         <img className={'info-upper__image'} src={girlSecond} alt={'image girl'}/>
                     </div>
+                </div>
+
+                <div className={'cases'}>
+                    <p className={'cases__title'}>Добрые дела рядом с вами</p>
+                    <div className={'cases-list'}>
+                        <CaseCard />
+                        <CaseCard />
+                        <CaseCard />
+                        <CaseCard />
+                    </div>
+                    <div className={'cases-buttons'}>
+                        <Link className={'cases-buttons__item'} to={'/'}>Сборы</Link>
+                        <Link className={'cases-buttons__item'} to={'/'}>Мероприятия</Link>
+                    </div>
+                </div>
+
+                <div>
+
                 </div>
             </div>
         </>
