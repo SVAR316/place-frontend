@@ -79,13 +79,19 @@
       }
     }
 
+    &__links{
+      margin-top: 2.048rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.095rem;
+    }
+
     &__link{
       display: flex;
       align-items: center;
       font-size: 1.524rem;
       color: var(--main-color);
       text-decoration: none;
-      margin-top: 2.048rem;
       gap: 1.238rem;
 
       & > img{

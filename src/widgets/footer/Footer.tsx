@@ -26,7 +26,7 @@ function Footer() {
                         <img src={arrowRight} alt={'arrow right'} />
                     </button>
                 </div>
-                <div>
+                <div className={'footer-middle__links'}>
                     <a className={'footer-middle__link'} href={'tel:8-800-000-0000'}>
                         <img src={phone} alt={'phone icon'}/>
                         8-800-000-0000
