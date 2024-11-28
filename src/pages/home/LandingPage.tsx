@@ -21,6 +21,8 @@ import vest from '../../shared/images/landing/vest-green.svg'
 import searchDollar from '../../shared/images/landing/search-dollar-green.svg'
 import CaseCard from "../../widgets/caseCard/CaseCard.tsx";
 import {Link} from "react-router-dom";
+import HelpCard from "../../widgets/helpCard/HelpCard.tsx";
+import Footer from "../../widgets/footer/Footer.tsx";
 
 
 function LandingPage() {
@@ -256,9 +258,18 @@ function LandingPage() {
                     </div>
                 </div>
 
-                <div>
-
+                <div className={'help'}>
+                    <p className={'help__title'}>
+                        Вопрос ответ
+                    </p>
+                    <div className={'help-list'}>
+                        <HelpCard />
+                    </div>
                 </div>
+            </div>
+
+            <div className={'container'} style={{marginTop:  '9.571rem'}}>
+                <Footer />
             </div>
         </>
     )

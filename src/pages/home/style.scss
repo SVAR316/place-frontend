@@ -313,3 +313,19 @@
     }
   }
 }
+
+.help{
+  margin-top: 4.762rem;
+
+  &__title{
+    font-size: 2.286rem;
+    font-weight: 700;
+    color: var(--main-color);
+  }
+
+  &-list{
+    margin-top: 1.286rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
