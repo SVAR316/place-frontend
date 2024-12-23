@@ -1,0 +1,30 @@
+.news{
+  margin-top: 119px;
+  display: flex;
+  flex-direction: column;
+
+  &__title{
+    font-size: 48px;
+    color: var(--main-color);
+    font-weight: 800;
+  }
+
+  &-upper{
+    display: flex;
+    justify-content: space-between;
+    gap: 57px;
+    margin-top: 49px;
+
+    &__image{
+      width: 40%;
+      height: 380px;
+      border-radius: 30px;
+    }
+
+    &__text{
+      font-size: 20px;
+      font-family: 'Josefin Sans', sans-serif;
+      color: var(--main-color);
+    }
+  }
+}
