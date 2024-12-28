@@ -1,5 +1,6 @@
 import {lazy, Suspense} from "react";
 import {BrowserRouter as Router, Navigate, Route, Routes} from "react-router-dom";
+import EventItem from "./event/page/EventItem.tsx";
 
 const LandingPage = lazy(() => import('./home/LandingPage.tsx'))
 const NewsPage = lazy(() => import('./news/page/News.tsx'))
@@ -15,6 +16,7 @@ export const Routing: React.FC = () => {
                 <Routes>
                     <Route path={'/'} element={<LandingPage />} />
                     <Route path={'/news/:id'} element={<NewsPage />} />
+                    <Route path={'/event/:id'} element={<EventItem />} />
                     <Route path={'*'} element={<Navigate to={'/'} />} />
                 </Routes>
             </Router>

@@ -1,0 +1,12 @@
+.comment{
+  width: 100%;
+  display: flex;
+  gap: 19px;
+
+  &Avatar{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

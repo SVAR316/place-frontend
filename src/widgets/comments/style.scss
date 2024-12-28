@@ -1,0 +1,48 @@
+.comment{
+  margin-top: 52px;
+  &__title{
+    font-size: 2.286rem;
+    font-weight: 800;
+    color: var(--main-color);
+  }
+
+  &__textarea{
+    resize: none;
+    width: 100%;
+    margin-top: 28px;
+    padding: 1.619rem 2.19rem;
+    border-radius: 15px;
+    border: none;
+
+    &::placeholder{
+      color: var(--accent-color);
+    }
+  }
+
+  &-controls{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: space-between;
+
+    & > button{
+      color: white;
+      background-color: var(--accent-color);
+      padding: 12px;
+      border: none;
+      border-radius: 20px;
+      font-size: 18px;
+
+      &:disabled{
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2.714rem;
+    margin-top: 65px;
+  }
+}
